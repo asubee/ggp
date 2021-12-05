@@ -1,0 +1,423 @@
+@charset "UTF-8";
+
+/*!
+Theme Name: Cocoon Child
+Description: Cocoon専用の子テーマ
+Theme URI: https://wp-cocoon.com/
+Author: わいひら
+Author URI: https://nelog.jp/
+Template:   cocoon-master
+Version:    1.1.2
+*/
+
+/************************************
+** 子テーマ用のスタイルを書く
+************************************/
+/*必要ならばここにコードを書く*/
+
+
+table.ggp_select_team {
+  border: 0px none !important;
+  width: 50%;
+  background-color: #FFFFFF !important;
+  /*table-layout: fixed;*/
+}
+
+table.ggp_select_team th, td {
+  border: 0px none !important;
+  word-break: break-word;
+  overflow: visible;
+}
+
+table.ggp_select_team tr:nth-of-type(2n+1) {
+  background-color: transparent !important;
+}
+
+table.action_table {
+  text-align: center;
+  border: 1px solid #EEEEEE;
+  font-size: 0.7em;
+}
+
+table.team_info {
+  margin-bottom: 10px;
+  border: 0.5px solid #CCCCCC;
+  line-height: 1.0;
+  font-size: 0.9em;
+  table-layout: fixed;
+}
+
+table.team_info tr:nth-of-type(2n+1) {
+  background-color: transparent !important;
+}
+
+
+input.btn-select-team {
+  color: #fff;
+  background-color: #004831;
+  height: 50px;
+}
+
+input.btn-select-team:hover {
+  color: #fff;
+  background: #195a45;
+  height: 50px;
+}
+
+input.btn-return {
+  color: #000;
+  background-color: #f5f8fa;
+  font-size: 0.8em;
+  padding: 0.3em 2.0em;
+}
+
+input.btn-select-phase {
+  color: #fff;
+  background-color: #004831;
+  font-size: 1.0em;
+  width: 70%;
+  padding: 0.3em;
+}
+
+input.btn-select-card {
+  position: absolute;
+  bottom: 20px;
+  left:15%;
+  color: #fff;
+  background-color: #004831;
+  font-size: 1.0em;
+  width: 70%;
+  padding: 0.3em;
+}
+
+input.btn-select-card:disabled {
+  position: absolute;
+  bottom: 20px;
+  left:15%;
+  color: #fff;
+  background-color: #808080;
+  font-size: 1.0em;
+  width: 70%;
+  padding: 0.3em;
+}
+
+input.btn-reload{
+  background: transparent;
+  border: 0px !important;
+}
+
+input.btn-select-event{
+  color: #fff;
+  background-color: #004831;
+}
+
+input.btn-select-event:disabled {
+  color: #000;
+  background-color: #808080;
+}
+
+input.btn-select-event-selected:disabled {
+  color: #000;
+  background-color: #FFFFFF;
+}
+
+
+.header-div {
+  overflow: hidden;
+}
+
+.earth-info {
+  font-size:0.8em;
+  margin: 0.5em;
+  width: 40%;
+  float: left;
+}
+
+.team-name {
+  font-size:1.8em;
+  float: left;
+}
+
+.team-description {
+  font-size: 0.8em;
+  float:left;
+}
+
+.return {
+  float:right;
+}
+
+p.subtitle {
+  font-size:1.2em;
+  margin-bottom: 0 !important;
+}
+
+.card_area {
+  position: absolute;
+  left: 0%;
+  top: 80px;
+/*  transform: translate(-50%,-50%); */
+  width: 100%;
+  background-color: #FAFBE5;
+  z-index: 2;
+  padding: 0.5em;
+  overflow: hidden;
+  border: 1px solid #CCCCCC;
+  transition: .6s;
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #CCCCCC;
+  float: left;
+  width: 350px;
+  height: 300px;
+  padding: 1.0em;
+  margin: 0.5em 1.0em;
+}
+
+table.card_image {
+  border: 1px solid #CCCCCC;
+  font-size:0.8em;
+  text-align: center;
+}
+
+table.card_image td{
+  /* height: 270px; */
+  vertical-align: bottom;
+}
+
+.triangle{
+  float: left;
+  width: 0;
+  height: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-left: 30px solid #004831;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+
+p.card_text {
+  line-height:1.0;
+  margin-bottom:0.5em !important;
+}
+
+p.card_text_err {
+  line-height:1.0;
+  color: red;
+  margin-bottom:0.5em !important;
+}
+.ggp-msg {
+  float: right;
+  padding: 0.5em;
+  margin: 0em 0em 0.5em 0em;
+  height: 10em;
+  width: 55%;
+  overflow: hidden scroll;
+  border: 1px solid #CCCCCC;
+}
+
+.error-msg {
+  align: center;
+  padding: 0.5em;
+  margin: 0.5em;
+  height:3em;
+  border: none;
+  font-size: 1.0em;
+  color: red;
+}
+
+p.p-ggp-msg {
+  line-height:1.2em;
+  font-size:0.7em;
+  margin-bottom:0.0 !important;
+}
+
+.close-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.icon {
+  position:absolute;
+  right: 5px;
+  bottom: 100px;
+  width: 100px;
+}
+
+.icon-action {
+  width:30px;
+}
+
+input.textbox-timer {
+  width: 50px;
+  font-size: 0.8em;
+  padding: 0.3em 0.3em;
+}
+
+input.btn-timer {
+  border: 0.5px solid #CCCCCC;
+  color: #000;
+  background-color: #f5f8fa;
+  font-size: 0.8em;
+  padding: 0.3em 1.0em;
+}
+
+.invisible{
+ display: none;
+}
+
+div.popup_msg{
+ display: none;
+ z-index: 20;
+ margin: 0;
+ padding: 10px;
+ max-width: 1200px;
+ width: 100%;
+ background-color: #000;
+ opacity: 0.6;
+ color: #fff;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ min-height: 30px;
+ top: 50px;
+ left: 50%;
+ transform: translateX(-50%);
+ -webkit-transform: translateX(-50%);
+ -ms-transform: translateX(-50%); right: 50%;
+ position: fixed;
+}
+
+div.popup_event_msg{
+ display: none;
+ z-index: 20;
+ margin: 0;
+ padding: 10px;
+ max-width: 1200px;
+ width: 100%;
+ background-color: #000;
+ opacity: 0.6;
+ color: #fff;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ min-height: 30px;
+ top: 110px;
+ left: 50%;
+ transform: translateX(-50%);
+ -webkit-transform: translateX(-50%);
+ -ms-transform: translateX(-50%); right: 50%;
+ position: fixed;
+}
+
+.canvasjs-chart-credit {
+    display: none;
+}
+
+div.result_canvas_parent {
+  overflow: hidden;
+}
+
+div.result_canvas_double_column {
+  float: left;
+  margin: 10px;
+  width: 45%;
+}
+
+div.result_canvas_single_column {
+  padding: 20px;
+  height: 500px;
+  width: 100%;
+}
+
+
+/************************************
+** レスポンシブデザイン用のメディアクエリ
+************************************/
+/*1023px以下*/
+@media screen and (max-width: 1023px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*834px以下*/
+@media screen and (max-width: 834px){
+  /*必要ならばここにコードを書く*/
+.earth-info {
+  font-size:0.8em;
+  margin: 0.5em;
+  width: 100%;
+/*  float: left; */
+}
+
+.ggp-msg {
+/*  float: right; */
+  padding: 0.5em;
+  margin: 0em 0em 0.5em 0em;
+  height: 10em;
+  width: 100%;
+  overflow: hidden scroll;
+  border: 1px solid #CCCCCC;
+}
+
+.card_area {
+/*  position: relative; */
+  position: absolute;
+  left: 0%;
+  top: 20%;
+  width: 100%;
+  transform: none;
+  background-color: #FAFBE5;
+  overflow: hidden;
+  border: 1px solid #CCCCCC;
+  transition: .6s;
+  padding: 0.5em;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #CCCCCC;
+  float: left;
+  width: 90%;
+  height: 300px;
+  padding: 1.0em;
+  margin: 0.5em 1.0em;
+}
+
+
+table.card_image td{
+  display: block;
+  text-align: center;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.triangle{
+  float: left;
+  position: absolute;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #004831;
+}
+
+
+
+
+/*480px以下*/
+@media screen and (max-width: 480px){
+  /*必要ならばここにコードを書く*/
+
+
+
+}

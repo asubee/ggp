@@ -1,0 +1,77 @@
+table.ggp_game_table {
+  border: 1px solid #CCCCCC;
+  width: 100%;
+  background-color: #F9F9F9;
+}
+
+table.ggp_team_table {
+  border: 1px solid #CCCCCC;
+  width: 100%;
+  background-color: #F9F9F9;
+}
+
+table.ggp_team_table_watch {
+  border: 1px solid #CCCCCC;
+  width: 100%;
+  font-size: 1.1em;
+  background-color: #F9F9F9;
+}
+
+table.ggp_team_table_watch td {
+  border: 1px solid #CCCCCC;
+  border-radius: 4px 4px 4px 4px;
+  padding: 3px;
+  background-color: #FFFFFF;
+}
+
+.main-watch-left{
+  margin: 0px 10px;
+  width: 55%;
+  float: left;
+}
+
+.main-watch-right{
+  margin: 0px 10px;
+  width: 40%;
+  float: right;
+}
+
+.inside {
+  overflow: hidden;
+}
+
+table.ggp_earth_table {
+  border: 1px solid #CCCCCC;
+  width: 30%;
+  background-color: #F9F9F9;
+}
+
+table.action_table {
+  width: 60%;
+  text-align: center;
+  border: 1px solid #CCCCCC;
+  border-collapse: collapse;
+  /* font-size: 1.0em; */
+  background-color: #F9F9F9;
+}
+
+table.action_table tr {
+  border: 1px solid #CCCCCC;
+}
+
+table.action_table td {
+  padding: 5px;
+  background-color: #FFFFFF;
+}
+
+table.action_table th {
+  padding: 10px;
+}
+
+.icon-action {
+  width:30px;
+}
+
+table.init_param td{
+  padding: 2px 10px;
+}
